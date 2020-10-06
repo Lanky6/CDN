@@ -48,7 +48,7 @@ body h6 {
     font-size: .9em;
 }
 body blockquote {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAYAAAE4goz0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ%0AbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp%0Abj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6%0AeD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0%0ANTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo%0AdHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw%0AdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv%0AIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS%0AZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD%0AcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNl%0ASUQ9InhtcC5paWQ6RjBCMDhFQTE4REE0MTFFMkE1QkNBNUM4QjYzRTc0NjYiIHhtcE1NOkRvY3Vt%0AZW50SUQ9InhtcC5kaWQ6RjBCMDhFQTI4REE0MTFFMkE1QkNBNUM4QjYzRTc0NjYiPiA8eG1wTU06%0ARGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMEIwOEU5RjhEQTQxMUUyQTVC%0AQ0E1QzhCNjNFNzQ2NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMEIwOEVBMDhEQTQxMUUy%0AQTVCQ0E1QzhCNjNFNzQ2NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w%0AbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtFuQ2MAAAD/SURBVHjaYszPz2cAASYgXgXE/wECiBEo%0AkgZkGLMAiZkgKYAAAomEAunVQHwGiE0AAogRqskFiPeAlP0HqQLJMjFAgDEIAwQQTNldIFZmQACw%0AapDK3UCsBBVgQKZBkq5A/B5kAVRQCEqnAwQQzFh0o0F2djBBjTyDJNEBFXNlgeoIQ3JMOdTpDDCn%0Ar4LqDkVyVCgTkg6QPfeQ%2BGBJmJEgO89CwwoEwgACDNm1SlDjGaAakE2BuQXk2HQgnsUCFdwNDWgT%0AqMnIIBRq4GqYJ2Ae6YBqYoB6BqRIEMn9q5AMeAfzLBOSJgY0BcZQ5yMDQahBq5igbkYH95ACYw8W%0A%2BT0ATbM5tFrGPXwAAAAASUVORK5CYII%3D%0A') no-repeat top left;
+    background: url('#') no-repeat top left;
     margin-left: 20px;
     padding-left: 20px;
 }
@@ -198,7 +198,7 @@ header {
     padding-right: 10px;
     margin: 2px 0;
     margin-right: 8px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAAEv%2BrJ2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ%0AbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp%0Abj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6%0AeD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0%0ANTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo%0AdHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw%0AdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv%0AIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS%0AZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD%0AcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNl%0ASUQ9InhtcC5paWQ6QTRBQ0VDNzU4ODk2MTFFMjg0RTk5RTcxQUIyMEYwREYiIHhtcE1NOkRvY3Vt%0AZW50SUQ9InhtcC5kaWQ6QTRBQ0VDNzY4ODk2MTFFMjg0RTk5RTcxQUIyMEYwREYiPiA8eG1wTU06%0ARGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNEFDRUM3Mzg4OTYxMUUyODRF%0AOTlFNzFBQjIwRjBERiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNEFDRUM3NDg4OTYxMUUy%0AODRFOTlFNzFBQjIwRjBERiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w%0AbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv3L8a0AAAAhSURBVHjaYrp%2B/ToTAwMDQAAxQWmAAILT%0AUAwQYBh8NAwA6E8KNZlbYaEAAAAASUVORK5CYII%3D%0A') no-repeat right center;
+    background: url('#') no-repeat right center;
     zoom: 1;
     *vertical-align: top;
     *margin-top: 7px;
@@ -434,7 +434,7 @@ footer .widget {
 	
 .select {
     cursor: pointer;
-    background: url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/bg.png) no-repeat 110px -6px;
+    background: url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/bg.png) no-repeat 110px -6px;
     border: 0;
     width: 110px;
     height: 38px;
@@ -469,13 +469,13 @@ footer .widget {
     border-radius:0;}
 .select a,select a:visited{color:#333;text-decoration:none;outline:0}
 .select a:hover,select a:active,select a:focus{text-decoration:none;color:#62a315;background-color:transparent}
-.searchBar spang{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -44px;.background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -44px;display:block}
-.searchBar spanb{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 0;display:block}
-.searchBar span360{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -88px;display:block}
-.searchBar spanbi{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -222px;display:block}
-.searchBar spanaol{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -128px;display:block}
-.searchBar spanso{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -170px;display:block}
-.searchBar spangon{background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -267px;display:block}
+.searchBar spang{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -44px;.background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -44px;display:block}
+.searchBar spanb{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 0;display:block}
+.searchBar span360{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -88px;display:block}
+.searchBar spanbi{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -222px;display:block}
+.searchBar spanaol{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -128px;display:block}
+.searchBar spanso{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -170px;display:block}
+.searchBar spangon{background:url(https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/img/sologo.png) no-repeat 0 -267px;display:block}
 #s0{cursor:pointer}
 #s0 img{width:97px;cursor:pointer}
 #s1 img,#s2 img,#s3 img,#s4 img,#s5 img,#s6 img,#s7 img{width:97px;cursor:pointer;padding-top:5px}
@@ -495,12 +495,12 @@ i.global-nav-right_i{float: left;
 .titleh3{ width:220px !important}
 .titleh3 font{ font-style: italic; font-size: 12px; color: #fdb127;}
 .cath3{color:white; padding-left: 25px;  font-size: 14px;  float: left; line-height: 22px;}
-.h3news{ background: url(../img/home-e.png) no-repeat;  background-size: 22px 22px;}
-.h3video{ background: url(../img/home-d.png) no-repeat;  background-size: 22px 22px;}
-.h3mil{ background: url(../img/home-c.png) no-repeat;  background-size: 22px 22px;}
-.h3res{ background: url(../img/home-b.png) no-repeat;  background-size: 22px 22px;}
-.h3game{ background: url(../img/home-e.png) no-repeat;  background-size: 22px 22px;}
-.h3tool{cursor:pointer; background: url(../img/home-c.png) no-repeat;  background-size: 22px 22px;}
+.h3news{ background: url(#) no-repeat;  background-size: 22px 22px;}
+.h3video{ background: url(#) no-repeat;  background-size: 22px 22px;}
+.h3mil{ background: url(#) no-repeat;  background-size: 22px 22px;}
+.h3res{ background: url(#) no-repeat;  background-size: 22px 22px;}
+.h3game{ background: url(#) no-repeat;  background-size: 22px 22px;}
+.h3tool{cursor:pointer; background: url(#) no-repeat;  background-size: 22px 22px;}
 #scroll{  
     }  
     #scroll div{  
