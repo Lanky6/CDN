@@ -14,10 +14,6 @@ document.onselectstart=new Function("event.returnValue=false;");// 屏蔽鼠标�
 
 if (top.location != self.location) {top.location=self.location;}// 屏蔽非法镜像或引用
 
-<!--[if IE]>
-window.location.href = 'https://hi.lanky.top/helper/up-browser' + location.href;
-<![endif]-->
-
 var OriginTitile = document.title,
 titleTime;
 document.addEventListener("visibilitychange",
