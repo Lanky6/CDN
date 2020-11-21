@@ -12,7 +12,7 @@ window.onload = function(){
 document.oncontextmenu=new Function("event.returnValue=false;");
 document.onselectstart=new Function("event.returnValue=false;");// 屏蔽鼠标右键和文本选择
 
-if (top.location != self.location) {top.location=self.location;}// 屏蔽非法镜像或引用
+// 屏蔽非法镜像或引用
 
 var OriginTitile = document.title,
 titleTime;
