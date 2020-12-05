@@ -1,39 +1,4 @@
-﻿function GetCookieVal(a) {
-	var b = document.cookie.indexOf(";", a);
-	if (b == -1) b = document.cookie.length;
-	return unescape(document.cookie.substring(a, b))
-}
-function SetCookie(a, b) {
-	var c = new Date();
-	var d = SetCookie.arguments;
-	var e = SetCookie.arguments.length;
-	var f = (e > 2) ? d[2] : 300000000;
-	var g = (e > 3) ? d[3] : null;
-	var h = (e > 4) ? d[4] : null;
-	var i = (e > 5) ? d[5] : false;
-	if (f != null) c.setTime(c.getTime() + (f * 1000));
-	document.cookie = a + "=" + escape(b) + ((f == null) ? "" : ("; expires=" + c.toGMTString())) + ((g == null) ? "" : ("; path=" + g)) + ((h == null) ? "" : ("; domain=" + h)) + ((i == true) ? "; secure" : "")
-}
-function DelCookie(a) {
-	var b = new Date();
-	b.setTime(b.getTime() - 1);
-	var c = GetCookie(a);
-	document.cookie = a + "=" + c + "; expires=" + b.toGMTString()
-}
-function GetCookie(a) {
-	var b = a + "=";
-	var c = b.length;
-	var d = document.cookie.length;
-	var i = 0;
-	while (i < d) {
-		var j = i + c;
-		if (document.cookie.substring(i, j) == b) return GetCookieVal(j);
-		i = document.cookie.indexOf(" ", i) + 1;
-		if (i == 0) break
-	}
-	return null
-}
-function $(a) {
+﻿function $(a) {
 	if (document.getElementById) {
 		return document.getElementById(a)
 	} else if (document.layers) {
@@ -88,7 +53,6 @@ function $(a) {
 		};
 		$("s0").innerHTML = hbb[a][0];
 		$("pt2").style.display = "none";
-		SetCookie('sousuosss', a);
 		$("catid").value = hbb[a][1]
 	};
 	initHead()
@@ -101,11 +65,6 @@ hbb = {
 	4: ["<spanbi>&nbsp;</spanbi>", "4"],
 	5: ["<spanso>&nbsp;</spanso>", "5"]
 };
-if (GetCookie('sousuosss')) {
-	var sss = GetCookie('sousuosss');
-	$("s0").innerHTML = hbb[sss][0];
-	$("catid").value = hbb[sss][1]
-}
 function bottomForm(a) {
 	if (a.catid.value == 1) {
 		window.open("http://www.baidu.com/baidu?word=" + encodeURI(a.infos.value));
