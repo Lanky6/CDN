@@ -1,0 +1,58 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td,figure {margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+caption,th {font-weight:normal;text-align:left;}
+fieldset,img {border:0;}
+ul li {list-style:none;}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+html {-webkit-text-size-adjust:none;-ms-text-size-adjust:none;}
+body {font:normal 14px/24px "Helvetica Neue",Helvetica,STheiti,"Microsoft Yahei","冬青黑体简体中文 w3",宋体,Arial,Tahoma,sans-serif,serif;word-wrap:break-word;}
+input,button,textarea,select,option,optiongroup {font-family:inherit;font-size:inherit;}
+*:focus {outline:0}
+a {text-decoration:none;color:#0066FF}
+img {-ms-interpolation-mode:bicubic}
+.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.page {box-shadow:none;background-repeat:no-repeat;background-size:cover;background-position:center center;background-attachment:fixed;position:relative;-webkit-background-size:cover !important;-moz-background-size:cover !important;-o-background-size:cover;background-size:100% 99.9%;}
+.page { display:table;margin:0 auto;background:rgba(0,0,0,0.00);;-moz-box-shadow: 0 5px 20px #CCCCCC;-webkit-box-shadow: 0 5px 20px #CCCCCC;box-shadow: 0 5px 20px #CCCCCC;}
+* html .clearfix {zoom:1}
+*:first-child+html .clearfix {zoom:1}
+.header {width:940px;height:80px;margin:0 auto;z-index:8;background-color:rgba(238,238,238,0.00);}
+#menu {width:940px;width:100%;height:100px;margin:0;background-color:rgba(238,238,238,0.50);}
+.logo {margin:22px 0 0 0;float:left;display:inline;}
+.link {margin-top:30px;float:right;text-align:right;_width:718px;}
+.link li {float:left;display:inline;margin-left:60px;}
+.link li a {color:#343434;font-size:16px;font-weight:500;padding-bottom:6px;display:block;}
+.link li.active {border-bottom:2px solid #0066FF;}
+.link li.active a {color:#0066FF;font-weight:bold;}
+.link li:hover {border-bottom:2px solid #0066FF;color:#0066FF;}
+.link li a:hover {color:#0066FF;font-weight:bold;}
+.left {width:140px;border-bottom:2px solid #DDD;background:rgba(221,221,221,0.70);float:left;}
+.left li:hover {border-left:3px solid #0066FF;}
+.left li a {height:40px;line-height:40px;display:block;color:#333;}
+.left li a:hover,.left li.active a {color:#0066FF;}
+.left li.active {border-left:3px solid #0066FF;}
+.left li {border-left:3px solid #fff;border-bottom:1px solid #EEEEEE;font-size:14px;height:40px;margin-bottom:1px;overflow:hidden;padding-left:25px;}
+.content ul.links {margin-top:10px;text-align:center;margin-left:30px;}
+.content ul.links li {width:138px;height:40px;line-height:40px;float:left;text-align:left;}
+.content ul.links li a {color:#343434;}
+.content ul.links li a:hover {color:#0066FF;}
+.link-main {margin-top:20px;}
+.content {width:1000px;background:rgba(221,221,221,0.70);float:right;padding:23px 20px 0 20px;min-height:500px;margin-bottom:20px;}
+.content h3 {background:url(#) repeat-x left bottom;padding-bottom:7px;width:100%;height:30px;position:relative;}
+.content h3 span {display:inline-block;height:33px;font-size:18px;overflow:hidden;color:#0066FF;border-bottom:3px solid #0066FF;}
+.content h3 em {font-size:12px;color:#888;font-weight:normal;position:absolute;bottom:10px;left:110px;}
+.content h4 {font-size:14px;}
+.content h3 span.q1 {background-position:0 -30px;}
+.content h3 span.q2 {background-position:0 -180px;}
+.content h3 span.q3 {background-position:0 -210px;}
+.content h3 span.q4 {background-position:0 -240px;}
+.content p {width:720px;margin:20px 0 20px 10px;color:#8c8c8c;}
+.content pre {color:#8c8c8c;text-indent:2em;width:740px;}
+.linkbox {padding:0px 0 20px;margin-bottom:20px;}
+.box {width:1200px;margin:18px auto 0 auto;}
+.hr {border-top:1px solid #CCD5DE;font-size:0;height:0;line-height:0;margin:15px 0;}
+.nav {color:#0052D9;font-size:15px;font-weight:bold;}
+.tailtext {width:730px;margin:0 auto;padding:5px 0;text-align:center;color:rgba(0,0,0,0.80);display:table;font-size:15px;}
+#footer {width:800px 100%;height:90px;background-color:rgba(255,255,255,0.70);margin:0;}
+.time {margin:30px 0 0 0;float:left;display:inline;}
